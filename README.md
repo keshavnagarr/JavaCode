@@ -8,6 +8,8 @@ Features
 - Subtraction
 - Multiplication
 - Division
+- Exponentiation
+- Square Root
 - Graceful handling of division by zero
 
 
