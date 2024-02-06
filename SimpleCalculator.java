@@ -18,7 +18,7 @@ class SimpleCalculator {
 
                 System.out.print("Enter your Number :");
                 int num = sc.nextInt();
-                //This if condition will terminal the loop
+                //This if condition will terminate the loop
                 if (num == 7)
                     break;
 
