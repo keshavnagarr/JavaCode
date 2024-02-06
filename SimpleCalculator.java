@@ -33,39 +33,39 @@ class SimpleCalculator {
                 }
 
                 System.out.println("Enter num1 :");
-                int num1 = sc.nextInt();
+                double num1 = sc.nextInt();
                 System.out.println("Enter num2 :");
-                int num2 = sc.nextInt();
-
+                double num2 = sc.nextInt();
+                double ans = 0;
                 switch (num) {
                     case 1:
 
-                        int ans1 = num1 + num2;
-                        System.out.println("The answer is :" + ans1);
+                        ans = num1 + num2;
+                        System.out.println("The answer is :" + ans);
                         break;
 
                     case 2:
 
-                        int ans2 = num1 - num2;
-                        System.out.println("The answer is :" + ans2);
+                        ans = num1 - num2;
+                        System.out.println("The answer is :" + ans);
                         break;
 
                     case 3:
 
-                        int ans3 = num1 * num2;
-                        System.out.println("The answer is :" + ans3);
+                        ans = num1 * num2;
+                        System.out.println("The answer is :" + ans);
                         break;
 
                     case 4:
 
-                        int ans4 = num1 / num2;
-                        System.out.println("The answer is :" + ans4);
+                        ans = num1 / num2;
+                        System.out.println("The answer is :" + ans);
                         break;
 
                     case 5:
 
-                        double ans5 = Math.pow(num1, num2);
-                        System.out.println("The answer is :" + ans5);
+                        ans = Math.pow(num1, num2);
+                        System.out.println("The answer is :" + ans);
                         break;
 
                 }
